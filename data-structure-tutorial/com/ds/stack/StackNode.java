@@ -1,6 +1,7 @@
 package com.ds.stack;
 
-class StackNode
+import com.ds.intf.Node;
+class StackNode implements Node
 {
 int data;
 StackNode next;

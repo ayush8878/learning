@@ -6,6 +6,7 @@ class StackNodeImpl
 public static void main(String args[])
  {
  Stack startNode=new Stack();
+ // startNode.root=new StackNode(-1);
  startNode.push(1);
  startNode.push(2);
  startNode.push(3);

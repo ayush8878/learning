@@ -22,13 +22,16 @@ public void push(int data)
  }
 public int peek()
  {
+if(root==null)
+return -1;
  return root.data;
  }
 public int pop()
  {
+if(root==null)
+return -1;
 StackNode temp=root;
 root=root.next;
-root.next=null;
 return temp.data;
  }
 }
